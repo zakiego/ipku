@@ -6,6 +6,7 @@ export default function Index() {
     <div>
       <Head>
         <title>IP-ku</title>
+        <meta name="description" content="Check my IP address" />
       </Head>
       <Flex
         bg="blackAlpha.900"
