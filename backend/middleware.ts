@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-// run only on homepage
 export const config = {
-  matcher: ["/", "/api", "/api/v1"],
+  matcher: ["/api", "/api/v1"],
 };
 
 export async function middleware(req: NextRequest) {
