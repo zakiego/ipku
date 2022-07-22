@@ -2,7 +2,7 @@
 
 > **Note**
 >
-> This is my practice project using Rust. There are many things I need to improve.
+> This is my first practice project using Rust. There are many things I need to improve.
 
 CLI to check IP address
 
