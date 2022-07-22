@@ -1,4 +1,4 @@
-import { Code, Flex } from "@chakra-ui/react";
+import { Center, Code, Container, Flex, HStack } from "@chakra-ui/react";
 import Head from "next/head";
 
 export default function Index() {
@@ -14,7 +14,18 @@ export default function Index() {
         alignItems="center"
         flexDir="column"
       >
-        <Code>curl -X GET https://ipku.vercel.app/api</Code>S
+        <Container>
+          <Center>
+            <Code
+              fontSize={{ base: "xs", md: "xl" }}
+              px={{ base: "3", md: "3" }}
+              py="3"
+              rounded="lg"
+            >
+              curl -X GET https://ipku.vercel.app/api
+            </Code>
+          </Center>
+        </Container>
       </Flex>
     </div>
   );
