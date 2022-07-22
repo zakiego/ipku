@@ -1,16 +1,4 @@
-import { ExternalLinkIcon } from "@chakra-ui/icons";
-import {
-  Code,
-  Container,
-  Flex,
-  Heading,
-  Link,
-  Spacer,
-  Stack,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
-import { SP } from "next/dist/shared/lib/utils";
+import { Code, Flex } from "@chakra-ui/react";
 import Head from "next/head";
 
 export default function Index() {
